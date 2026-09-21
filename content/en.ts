@@ -162,7 +162,7 @@ export const articlesEn: ArticleMap = {
       "Differentiates from damage cheat sheets: we plan raid + hideout slots, not forge DPS math.",
       "Media: Steam header/screenshots for documentation + youtube-nocookie embeds of public trailers.",
       "EN only for v1 — lean indexable page set (home, tool, beginner, FAQ, about, privacy).",
-      "Optional Google Analytics via NEXT_PUBLIC_GA_ID; no Adsterra on v1.",
+      "Optional Google Analytics via NEXT_PUBLIC_GA_ID; may show Adsterra Native Banner (no Popunder/Smartlink).",
     ],
     sections: [
       {
@@ -194,7 +194,7 @@ export const articlesEn: ArticleMap = {
     path: "/privacy",
     seoTitle: "Privacy Policy for This Fan Wiki — Escape From Duckov",
     seoDescription:
-      "Privacy policy for the unofficial Escape From Duckov fan wiki. No accounts; loadout state stays in the URL; optional Google Analytics via NEXT_PUBLIC_GA_ID; no Adsterra on v1.",
+      "Privacy policy for the unofficial Escape From Duckov fan wiki. No accounts; loadout state stays in the URL; optional Google Analytics via NEXT_PUBLIC_GA_ID; Adsterra Native Banner may load (no Popunder/Smartlink).",
     h1: "Privacy policy for this fan wiki",
     lead:
       "No user accounts. Raid Loadout + Hideout Planner state lives in the page URL on your device. We do not run a DPS backend or collect Steam credentials.",
@@ -203,7 +203,7 @@ export const articlesEn: ArticleMap = {
       "No login, player profiles, payments, or redeem-code forms on this wiki.",
       "Planner selections (map, weapons, armor, focus, hideout, notes) stay in the browser address bar so you can share links — not uploaded to a wiki database.",
       "If NEXT_PUBLIC_GA_ID is configured, Google Analytics may collect standard usage metrics. Leave the env empty to disable analytics scripts.",
-      "No Adsterra (or other ad network) scripts on v1.",
+      "Some pages may show Adsterra Native Banner ads (no Popunder/Smartlink).",
       "Steam / YouTube (youtube-nocookie) links leave this site — their policies apply there.",
       "Hosting is on Vercel; infrastructure logs may apply under Vercel’s privacy terms.",
     ],
@@ -212,7 +212,7 @@ export const articlesEn: ArticleMap = {
         h2: "What we collect",
         paragraphs: [
           "Raid Loadout + Hideout Planner state is encoded in query parameters (map, mname, primary, secondary, melee, armor, focus, hideout, notes). Anyone you send the link to can read those values — do not put passwords, payment data, or personal identifiers in notes.",
-          "If analytics are enabled via NEXT_PUBLIC_GA_ID, Google’s scripts may set cookies or collect usage metrics under Google’s policies. Essential hosting cookies may come from the deployment platform (Vercel).",
+          "If analytics are enabled via NEXT_PUBLIC_GA_ID, Google’s scripts may set cookies or collect usage metrics under Google’s policies. Adsterra Native Banner may set third-party scripts/cookies. Essential hosting cookies may come from the deployment platform (Vercel).",
         ],
       },
       {
