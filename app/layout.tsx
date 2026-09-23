@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "Unofficial fan wiki for Escape From Duckov. Raid Loadout + Hideout Planner, beginner guide. Steam facts only — not a damage-number cheat sheet.",
   icons: { icon: "/favicon.svg" },
   // Optional GSC verification: set verification.google when a token is available.
-  // verification: { google: "PASTE_GSC_TOKEN_HERE" },
+  // verification: { google: "CMEu9ebYVvHXLjZcv2qdXQnGfRRpmemTOIu9TAg2YTc" },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
