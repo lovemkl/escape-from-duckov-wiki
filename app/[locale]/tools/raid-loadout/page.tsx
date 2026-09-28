@@ -18,6 +18,7 @@ export default async function Page({
   if (!resolved) notFound();
   return (
     <ArticleView
+      toolAd
       article={resolved.article}
       fallbackEnglish={resolved.fallback}
     >

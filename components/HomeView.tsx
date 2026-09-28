@@ -129,6 +129,8 @@ export async function HomeView() {
         </div>
       </section>
 
+      <AdsterraNative className="px-4" />
+
       <section className="mx-auto max-w-6xl px-4 py-14">
         <h2 className="text-2xl font-semibold">{t("startHere")}</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -197,7 +199,6 @@ export async function HomeView() {
         hint={common("galleryHint")}
       />
 
-      <AdsterraNative />
 
       <section className="mx-auto max-w-6xl px-4 py-14">
         <h2 className="text-2xl font-semibold">{t("aboutGame")}</h2>

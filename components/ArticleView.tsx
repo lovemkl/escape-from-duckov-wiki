@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Fragment } from "react";
 import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -7,13 +8,29 @@ import { STEAM_URL } from "@/lib/site";
 import { AdsterraNative } from "@/components/AdsterraNative";
 import { YouTubeEmbed } from "@/components/YouTubeEmbed";
 
+/** Ad slot right after the first two paragraphs (lead counts as the first). */
+function adSlotAfterTwoParagraphs(article: WikiArticle): [number, number] {
+  let n = article.lead ? 1 : 0;
+  for (let si = 0; si < article.sections.length; si++) {
+    const paragraphs = article.sections[si].paragraphs;
+    for (let pi = 0; pi < paragraphs.length; pi++) {
+      n += 1;
+      if (n >= 2) return [si, pi];
+    }
+  }
+  return [-1, -1];
+}
+
 type Props = {
   article: WikiArticle;
   fallbackEnglish?: boolean;
   children?: ReactNode;
+  /** Tool page: single ad slot directly below the tool (children). */
+  toolAd?: boolean;
 };
 
-export async function ArticleView({ article, fallbackEnglish, children }: Props) {
+export async function ArticleView({ article, fallbackEnglish, children, toolAd }: Props) {
+  const [adSi, adPi] = adSlotAfterTwoParagraphs(article);
   const t = await getTranslations("common");
 
   return (
@@ -94,20 +111,25 @@ export async function ArticleView({ article, fallbackEnglish, children }: Props)
         </div>
       ) : null}
 
-      <AdsterraNative />
-
       {children ? <div className="mt-10">{children}</div> : null}
 
-      {article.sections.map((section) => (
+      {toolAd ? <AdsterraNative /> : null}
+
+      {article.sections.map((section, si) => (
         <section key={section.h2} className="mt-10">
           <h2 className="text-2xl font-semibold text-banana">{section.h2}</h2>
-          {section.paragraphs.map((p) => (
-            <p key={p.slice(0, 48)} className="mt-4 leading-7 text-muted">
-              {p}
-            </p>
+          {section.paragraphs.map((p, pi) => (
+            <Fragment key={p.slice(0, 48)}>
+              <p className="mt-4 leading-7 text-muted">
+                {p}
+              </p>
+              {!toolAd && si === adSi && pi === adPi ? <AdsterraNative /> : null}
+            </Fragment>
           ))}
         </section>
       ))}
+
+      {!toolAd && adSi < 0 ? <AdsterraNative /> : null}
 
       {article.related.length > 0 ? (
         <section className="mt-12 border-t border-line pt-8">
