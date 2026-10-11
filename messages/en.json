@@ -12,7 +12,9 @@
     "about": "About",
     "play": "Play on Steam",
     "menu": "Menu",
-    "language": "Language"
+    "language": "Language",
+    "specs": "PC specs",
+    "extract": "Extract loop"
   },
   "footer": {
     "blurb": "Fan-made community notes for Escape From Duckov — Team Soda / bilibili. Raid Loadout + Hideout Planner first; Steam facts only.",
@@ -22,7 +24,9 @@
     "faq": "FAQ",
     "about": "About",
     "privacy": "Privacy",
-    "steam": "Official Steam page"
+    "steam": "Official Steam page",
+    "specs": "System requirements",
+    "extract": "Extract & hideout"
   },
   "common": {
     "eyebrow": "Unofficial Fan Wiki",
@@ -79,6 +83,10 @@
     "reviewsValue": "Very Positive (~93% of ~10.6k English reviews on store snapshot — counts change)",
     "coop": "Players",
     "coopValue": "Single-player · PVE",
-    "features": "Steam framing: scavenge & extract across five maps; build hideout; 50+ weapons with mods; blueprints & skill trees; quests/NPCs; Steam Workshop. Categories include Single-player, Steam Achievements (55), Trading Cards, Workshop, Steam Cloud, Family Sharing."
+    "features": "Steam framing: scavenge & extract across five maps; build hideout; 50+ weapons with mods; blueprints & skill trees; quests/NPCs; Steam Workshop. Categories include Single-player, Steam Achievements (55), Trading Cards, Workshop, Steam Cloud, Family Sharing.",
+    "cardSpecsTitle": "System requirements",
+    "cardSpecsBody": "Steam Windows and macOS mins/recommended — SSD/storage notes, no invented FPS.",
+    "cardExtractTitle": "Extract & hideout loop",
+    "cardExtractBody": "Scavenge, extract in time, sell/craft, upgrade Base — Steam framing only."
   }
 }

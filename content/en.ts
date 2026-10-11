@@ -299,4 +299,99 @@ export const articlesEn: ArticleMap = {
       { href: "/privacy", label: "Privacy" },
     ],
   },
+
+
+  "system-requirements": {
+    slug: "system-requirements",
+    path: "/guides/system-requirements",
+    seoTitle: "Escape From Duckov System Requirements — PC and Mac",
+    seoDescription:
+      "Steam PC and Mac specs for Escape From Duckov (app 3167020): Windows 10 mins, recommended CPU/GPU/RAM, storage, plus macOS Apple M3 notes from the store.",
+    h1: "Escape From Duckov system requirements",
+    lead:
+      "Steam-published Windows and macOS specs for Escape From Duckov (app 3167020). Re-check Steam if the store updates the block.",
+    bullets: [
+      "Steam app 3167020 · Team Soda / bilibili · Windows and macOS listed.",
+      "Windows minimum: Windows 10, Intel Core i7-9700 / AMD Ryzen 5 5600 / Snapdragon X, 8 GB RAM, GTX 1060 / RX 6500 XT / Adreno X1, DirectX 11, 16 GB storage.",
+      "Windows recommended: Windows 10, Intel Core i7-9700 / AMD Ryzen 7 5700 / Snapdragon X2 Elite, 16 GB RAM, GTX 2060 / RX 6600 / Adreno X2, DirectX 11, 16 GB storage.",
+      "macOS minimum (Steam): OS 15.6.1, Apple M3, 16 GB RAM. Recommended macOS block may be empty — Unknown.",
+    ],
+    sections: [
+      {
+        h2: "Windows minimum (Steam)",
+        paragraphs: [
+          "Requires a 64-bit processor and operating system. OS: Windows 10. Processor: intel Core i7-9700/AMD Ryzen 5 5600/Snapdragon X. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 1060/AMD Radeon RX 6500 XT/Qualcomm Adreno X1 GPU. DirectX: Version 11. Storage: 16 GB available space.",
+        ],
+      },
+      {
+        h2: "Windows recommended (Steam)",
+        paragraphs: [
+          "OS: Windows 10. Processor: intel Core i7-9700/AMD Ryzen 7 5700/Snapdragon X2 Elite. Memory: 16 GB RAM. Graphics: NVIDIA GeForce GTX 2060/AMD Radeon RX 6600/Qualcomm Adreno X2 GPU. DirectX: Version 11. Storage: 16 GB available space.",
+        ],
+      },
+      {
+        h2: "macOS (Steam)",
+        paragraphs: [
+          "Minimum lists OS 15.6.1, Processor Apple M3, Memory 16 GB RAM. If the recommended macOS block is empty on a snapshot, this wiki marks it Unknown rather than inventing a chip tier.",
+        ],
+      },
+      {
+        h2: "What we will not invent",
+        paragraphs: [
+          "No forged FPS guarantees and no hideout-module performance myths. Prefer the live Steam page when numbers change.",
+        ],
+      },
+    ],
+    related: [
+      { href: "/tools/raid-loadout", label: "Raid loadout + hideout planner" },
+      { href: "/guides/beginner", label: "Beginner guide" },
+      { href: "/guides/extract-and-hideout", label: "Extract & hideout loop" },
+      { href: "/faq", label: "FAQ" },
+    ],
+  },
+
+  "extract-and-hideout": {
+    slug: "extract-and-hideout",
+    path: "/guides/extract-and-hideout",
+    seoTitle: "Extract and Hideout Loop Guide — Escape From Duckov",
+    seoDescription:
+      "Steam-backed Escape From Duckov extract and hideout loop: scavenge valuables, extract in time, sell and craft, upgrade Base and gear. No invented DPS tables.",
+    h1: "Extract and hideout loop",
+    lead:
+      "Steam-backed Escape From Duckov session loop: scavenge, extract in time, sell and craft, upgrade Base and gear. Planner logging habits — no invented DPS or recipes.",
+    bullets: [
+      "Core Steam loop: scavenge valuables → extract in time → sell / craft → upgrade hideout & gear → quests & stronger runs.",
+      "Five unique maps with shifting loot, enemies, and weather (Steam) — official map names Unknown on store.",
+      "Start as an Average Duck — ordinary stats, one basic gun (Steam).",
+      "Workbench, blueprints, 50+ weapons with mods, and skill trees are framed on Steam without public DPS sheets.",
+    ],
+    sections: [
+      {
+        h2: "Extract habits (Steam framing)",
+        paragraphs: [
+          "Steam warns that you must extract in time or you might lose everything. Treat early raids as learning extract rhythm and what is worth bringing home — not as a DPS farm.",
+          "Scavenge meds, gear, and rare collectibles; bring them back, sell for profit, and upgrade your Base. Exact prices and drop rates stay Unknown on the store.",
+        ],
+      },
+      {
+        h2: "Hideout & craft night",
+        paragraphs: [
+          "Steam emphasizes building your hideout, upgrading your Base, and using the workbench so scrap can become treasure. Blueprints and skill trees (ranged, melee, attributes) are store-framed without a public cost sheet here.",
+          "Log tonight’s hideout focus in the Raid Loadout + Hideout Planner. Empty module names stay Unknown — never paste forged recipe tables as Team Soda data.",
+        ],
+      },
+      {
+        h2: "What we will not invent",
+        paragraphs: [
+          "No official weapon DPS grids, no forged map names, no hideout meta cost lists, and no redeem codes. Prefer in-client UI and the live Steam page when something conflicts with an older wiki sentence.",
+        ],
+      },
+    ],
+    related: [
+      { href: "/tools/raid-loadout", label: "Raid loadout + hideout planner" },
+      { href: "/guides/beginner", label: "Beginner guide" },
+      { href: "/guides/system-requirements", label: "System requirements" },
+      { href: "/faq", label: "FAQ" },
+    ],
+  },
 };

@@ -14,7 +14,7 @@ function escapeXml(s: string) {
 /** Minimal sitemap: sitemap.org 0.9 urlset only — no xhtml / hreflang. */
 export function GET() {
   const SITE = siteUrl();
-  const lastmod = "2026-09-20";
+  const lastmod = "2026-10-11";
   const paths = [
     "/",
     ...allEnglishArticles()

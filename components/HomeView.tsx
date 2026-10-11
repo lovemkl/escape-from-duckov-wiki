@@ -40,6 +40,18 @@ export async function HomeView() {
       image: "/media/ss0.jpg",
     },
     {
+      href: "/guides/system-requirements" as const,
+      title: t("cardSpecsTitle"),
+      body: t("cardSpecsBody"),
+      image: "/media/ss3.jpg",
+    },
+    {
+      href: "/guides/extract-and-hideout" as const,
+      title: t("cardExtractTitle"),
+      body: t("cardExtractBody"),
+      image: "/media/ss2.jpg",
+    },
+    {
       href: "/faq" as const,
       title: t("cardFaqTitle"),
       body: t("cardFaqBody"),

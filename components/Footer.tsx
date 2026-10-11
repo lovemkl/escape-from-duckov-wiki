@@ -5,6 +5,8 @@ import { STEAM_URL } from "@/lib/site";
 const LINKS = [
   { href: "/tools/raid-loadout" as const, key: "loadout" },
   { href: "/guides/beginner" as const, key: "beginner" },
+  { href: "/guides/system-requirements" as const, key: "specs" },
+  { href: "/guides/extract-and-hideout" as const, key: "extract" },
   { href: "/faq" as const, key: "faq" },
   { href: "/about" as const, key: "about" },
   { href: "/privacy" as const, key: "privacy" },
