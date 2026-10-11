@@ -8,6 +8,7 @@ const LINKS = [
   { href: "/guides/beginner" as const, key: "beginner" },
   { href: "/guides/system-requirements" as const, key: "specs" },
   { href: "/guides/extract-and-hideout" as const, key: "extract" },
+  { href: "/guides/workshop-and-mods" as const, key: "workshop" },
   { href: "/faq" as const, key: "faq" },
   { href: "/about" as const, key: "about" },
 ];

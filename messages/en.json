@@ -14,7 +14,8 @@
     "menu": "Menu",
     "language": "Language",
     "specs": "PC specs",
-    "extract": "Extract loop"
+    "extract": "Extract loop",
+    "workshop": "Workshop"
   },
   "footer": {
     "blurb": "Fan-made community notes for Escape From Duckov — Team Soda / bilibili. Raid Loadout + Hideout Planner first; Steam facts only.",
@@ -26,7 +27,8 @@
     "privacy": "Privacy",
     "steam": "Official Steam page",
     "specs": "System requirements",
-    "extract": "Extract & hideout"
+    "extract": "Extract & hideout",
+    "workshop": "Workshop & mods"
   },
   "common": {
     "eyebrow": "Unofficial Fan Wiki",

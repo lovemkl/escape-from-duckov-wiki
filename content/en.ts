@@ -394,4 +394,89 @@ export const articlesEn: ArticleMap = {
       { href: "/faq", label: "FAQ" },
     ],
   },
+  "workshop-and-mods": {
+    slug: "workshop-and-mods",
+    path: "/guides/workshop-and-mods",
+    seoTitle: "Steam Workshop & Mods \u2014 Escape From Duckov Fan Wiki",
+    seoDescription: "Escape From Duckov Steam Workshop (app 3167020): how this wiki treats Workshop content, Cloud saves, and Steam vs Unknown names. No forged mod catalogs or DPS.",
+    h1: "Escape From Duckov Steam Workshop & mods",
+    lead: "Steam lists Steam Workshop support for Escape From Duckov (app 3167020). This page explains how the fan wiki treats Workshop content without inventing mod catalogs.",
+    bullets: [
+      "Steam categories include Steam Workshop, Steam Cloud, Steam Achievements, Trading Cards, Family Sharing.",
+      "Workshop item names, ratings, and compatibility are Unknown on the store page — confirm in Steam client.",
+      "This wiki never republishes third-party mod DPS sheets as Team Soda data.",
+      "Use the Raid Loadout + Hideout Planner to log only gear and goals you confirm in-client.",
+      "Purchases, refunds, and Workshop subscriptions go through Steam — not this fan site.",
+    ],
+    sections: [
+      {
+        h2: "What Steam lists",
+        paragraphs: [
+          "Escape From Duckov’s Steam store page includes Steam Workshop among its categories, alongside Single-player, Steam Achievements, Steam Trading Cards, Steam Cloud, and Family Sharing. The store does not publish a curated official mod whitelist or balance sheet for Workshop items.",
+        ],
+      },
+      {
+        h2: "How this wiki treats Workshop content",
+        paragraphs: [
+          "If you subscribe to Workshop content, treat names, balance, and save compatibility as client-confirmed facts. Empty planner slots stay Unknown. We will not invent a “best mods” tier list or paste someone else’s damage spreadsheet into this guide.",
+          "Cloud saves and Family Sharing follow Steam’s own rules for your region — link out to Steam Help when those policies matter.",
+        ],
+      },
+      {
+        h2: "What we will not invent",
+        paragraphs: [
+          "No forged Workshop IDs, no guaranteed compatibility matrix, and no redeem codes. Report broken mods to their authors or the Steam hub for app 3167020.",
+        ],
+      },
+    ],
+    related: [
+      { href: "/tools/raid-loadout", label: "Raid loadout planner" },
+      { href: "/guides/weapons-and-blueprints", label: "Weapons & blueprints" },
+      { href: "/guides/extract-and-hideout", label: "Extract & hideout" },
+      { href: "/faq", label: "FAQ" },
+    ],
+  },
+  "weapons-and-blueprints": {
+    slug: "weapons-and-blueprints",
+    path: "/guides/weapons-and-blueprints",
+    seoTitle: "Weapons, Mods & Blueprints \u2014 Escape From Duckov Wiki",
+    seoDescription: "Steam frames 50+ weapons, mods, blueprints, and workbench crafting in Escape From Duckov. Log owned gear in the raid planner \u2014 no invented DPS or drop rates.",
+    h1: "Weapons, mods & blueprints (Steam framing)",
+    lead: "Steam about text highlights over 50 weapons, an extensive mod system, blueprints, and a workbench that can turn scrap into treasure. This page stays on store language — no DPS cheat sheet.",
+    bullets: [
+      "Steam: choose from over 50 weapons, ranging from top-tier firearms to a common wooden stick (store about language).",
+      "Steam: extensive mod system for weapons; blueprints for crafting; skill trees for ranged, melee, and character attributes.",
+      "Exact weapon names, mod slots, and blueprint costs are Unknown on the public store — confirm in-client.",
+      "Workbench framing: scrap can become treasure with the right touch (Steam).",
+      "Log only owned gear in the Raid Loadout + Hideout Planner.",
+    ],
+    sections: [
+      {
+        h2: "What Steam actually says",
+        paragraphs: [
+          "Steam about text for Escape From Duckov (app 3167020) highlights scavenging valuables, selling for profit, upgrading your Base, using a workbench so scrap can become treasure, choosing from over 50 weapons with an extensive mod system, blueprints for crafting, and skill trees covering ranged, melee, and character attributes.",
+          "The store page does not publish a public weapon DPS sheet, drop-rate table, or complete blueprint cost tree. Third-party spreadsheets are outside this wiki’s accuracy policy.",
+        ],
+      },
+      {
+        h2: "How to use the planner with this page",
+        paragraphs: [
+          "Open the Raid Loadout + Hideout Planner, name only weapons and armor you confirmed in-client, and leave unknown slots labeled Unknown. Presets sketch session goals (first raid, extract-safe, blueprint hunt) without inventing catalogs.",
+        ],
+      },
+      {
+        h2: "What we will not invent",
+        paragraphs: [
+          "No forged DPS grids, no “meta” tier lists, and no fake blueprint IDs. If Steam later publishes an official roster, we can cite it then.",
+        ],
+      },
+    ],
+    related: [
+      { href: "/tools/raid-loadout", label: "Raid loadout planner" },
+      { href: "/guides/workshop-and-mods", label: "Workshop & mods" },
+      { href: "/guides/beginner", label: "Beginner guide" },
+      { href: "/guides/system-requirements", label: "System requirements" },
+    ],
+  },
+
 };

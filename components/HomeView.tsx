@@ -52,6 +52,18 @@ export async function HomeView() {
       image: "/media/ss2.jpg",
     },
     {
+      href: "/guides/workshop-and-mods" as const,
+      title: "Workshop & mods",
+      body: "Steam Workshop support framing — no forged mod catalogs or DPS sheets.",
+      image: "/media/ss3.jpg",
+    },
+    {
+      href: "/guides/weapons-and-blueprints" as const,
+      title: "Weapons & blueprints",
+      body: "50+ weapons, mods, blueprints from Steam about text — log only what you own.",
+      image: "/media/ss1.jpg",
+    },
+    {
       href: "/faq" as const,
       title: t("cardFaqTitle"),
       body: t("cardFaqBody"),
