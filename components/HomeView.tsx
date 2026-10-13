@@ -321,6 +321,21 @@ export async function HomeView() {
             Start with the beginner guide, plan the raid, and extract
             with something.
           </p>
+          <h3 className="text-lg font-semibold text-foreground">
+            The extract-safe checklist
+          </h3>
+          <p>
+            Before every raid, run the same five checks: know which exit
+            you are walking toward, know what the weather is doing to
+            visibility and sound, carry only what you can afford to
+            lose, keep the timer in your head rather than on your
+            screen-edge, and quit while you are ahead — the official
+            loop rewards the duck who banks loot, not the duck who
+            rerolls a good run into a bad one. Print that habit into
+            your presets and extraction stops being the scary part of
+            the game; it becomes the whole point, exactly as the
+            description intends.
+          </p>
         </div>
       </section>
     </div>
