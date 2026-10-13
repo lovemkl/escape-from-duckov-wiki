@@ -250,6 +250,79 @@ export async function HomeView() {
         </dl>
         <p className="mt-6 max-w-3xl text-sm leading-7 text-muted">{t("features")}</p>
       </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-14" aria-label="Escape From Duckov guide overview">
+        <h2 className="text-2xl font-semibold">
+          Escape From Duckov, explained for new raiders
+        </h2>
+        <div className="mt-6 space-y-5 text-sm leading-7 text-foreground/90">
+          <p>
+            Escape From Duckov is a top-down extraction shooter on Steam
+            where you raid as an Average Duck — ordinary stats, one basic
+            gun — and try to come home richer than you left. The official
+            loop: scavenge valuables, extract in time, sell or craft,
+            upgrade your hideout and gear, and take on quests for
+            stronger runs. Every fact on this page comes from the Steam
+            listing; exact loot tables, drop rates, and DPS grids are not
+            published, so this wiki logs what you confirm in-client
+            instead of forging cheat sheets.
+          </p>
+          <h3 className="text-lg font-semibold text-foreground">
+            The raid loop, in order
+          </h3>
+          <p>
+            Extraction shooters punish heroes, and Duckov is no
+            exception. The winning rhythm follows the official loop:
+            enter quietly, scavenge what is genuinely valuable, watch the
+            clock, and extract on time — an Average Duck who leaves with
+            something beats a greedy duck who leaves with nothing. Sell
+            or craft between raids, then pour the profit into hideout
+            upgrades and gear that make the next run safer, not just
+            louder. Quests layer long-term goals over the loop and give
+            shape to session planning.
+          </p>
+          <h3 className="text-lg font-semibold text-foreground">
+            Five maps that never sit still
+          </h3>
+          <p>
+            Steam lists five unique maps with shifting loot, enemies, and
+            weather. That shifting is the difficulty curve: no memorized
+            route stays safe forever, and weather changes what a raid
+            even looks like. The official map names are not published on
+            the store — the wiki keeps them Unknown rather than guessing
+            — but the loadout planner lets you log what you found, where,
+            and in what weather, building a personal intel file that is
+            actually yours.
+          </p>
+          <h3 className="text-lg font-semibold text-foreground">
+            50+ weapons and the mod system
+          </h3>
+          <p>
+            The arsenal is deep — Steam lists 50+ weapons with an
+            extensive mod system — but names, stats, and attachments
+            should be confirmed in-client before you trust any list,
+            including community ones. The workbench framing from Steam
+            covers crafting and upgrades; upgrade priorities are
+            player-logged here, not a forged recipe sheet. Start with
+            what your first gun does well, and let mods fix felt problems
+            rather than chasing a meta someone invented.
+          </p>
+          <h3 className="text-lg font-semibold text-foreground">
+            The hideout is the real progression
+          </h3>
+          <p>
+            Between raids, the hideout is where an Average Duck becomes
+            something tougher: workbench, blueprints, and upgrades form
+            the permanent backbone the official description builds on.
+            The Raid Loadout + Hideout Planner on this site sketches
+            session goals — first raid, extract-safe, blueprint hunt,
+            hideout night, quest run — with shareable presets and a
+            plain-text log you can paste into Discord or Steam chat.
+            Start with the beginner guide, plan the raid, and extract
+            with something.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
