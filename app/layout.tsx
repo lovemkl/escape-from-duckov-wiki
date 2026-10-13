@@ -20,11 +20,11 @@ const SITE = siteUrl();
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: {
-    default: "Escape From Duckov Fan Wiki — Raid Loadout + Hideout Planner",
+    default: "Escape From Duckov Wiki: Beginner Guide, Raid Tips & Loadouts",
     template: "%s",
   },
   description:
-    "Unofficial fan wiki for Escape From Duckov. Raid Loadout + Hideout Planner, beginner guide. Steam facts only — not a damage-number cheat sheet.",
+    "Escape From Duckov wiki: beginner guide, raid tips, trader notes, and the Raid Loadout + Hideout Planner — verified facts only.",
   icons: { icon: "/favicon.svg" },
   verification: { google: "CMEu9ebYVvHXLjZcv2qdXQnGfRRpmemTOIu9TAg2YTc" },
 };
