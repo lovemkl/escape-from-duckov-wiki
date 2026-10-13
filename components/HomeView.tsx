@@ -336,6 +336,20 @@ export async function HomeView() {
             the game; it becomes the whole point, exactly as the
             description intends.
           </p>
+          <h3 className="text-lg font-semibold text-foreground">
+            Loot discipline for Average Ducks
+          </h3>
+          <p>
+            The store starts you ordinary — average stats, one basic gun
+            — and that starting honesty is the best teacher in the
+            game. Ordinary ducks do not carry heirlooms: fill your
+            pockets with what today&apos;s run can replace, leave the
+            sentimental gun at the hideout, and treat every raid as a
+            salary negotiation with five maps of shifting weather.
+            Ducks who respect their own averageness extract richer over
+            a week than ducks who chase hero runs on day one, and the
+            hideout grows either way — one pocket at a time.
+          </p>
         </div>
       </section>
     </div>
